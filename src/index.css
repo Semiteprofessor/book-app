@@ -1,0 +1,51 @@
+/** @format */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.card {
+  height: 15vh;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  justify-content: center;
+  align-self: flex-start;
+  margin: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+input {
+  border: 1px solid black !important;
+  border-radius: 8px 18px;
+  padding: 8px 18px;
+}
+
+.is-checked {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+p {
+  margin-left: 10px;
+}
